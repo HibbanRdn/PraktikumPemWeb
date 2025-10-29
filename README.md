@@ -50,8 +50,8 @@ cd PraktikumPemWeb/TA_Modul\ 1
 
 ---
 
-# Dibuat Oleh: 
-Nama: Muhamad Hibban Ramadhan
-NPM: 2315061094
-Program Studi: Teknik Informatika
-Mata Kuliah: Praktikum Pemrograman Web
+# Dibuat Oleh:
+- Nama: Muhamad Hibban Ramadhan
+- NPM: 2315061094
+- Program Studi: Teknik Informatika
+- Mata Kuliah: Praktikum Pemrograman Web
