@@ -12,7 +12,7 @@ PraktikumPemWeb/
 ├── TA_Modul 1/
 │   ├── index.html
 │   ├── style.css
-│   └── script.js
+│   └── Screenshot Tampilan
 ├── (folder modul lainnya)
 └── README.md
 ```
@@ -50,9 +50,9 @@ cd PraktikumPemWeb/TA_Modul\ 1
 
 ---
 
-# Dibuat Oleh:
-Nama: Muhamad Hibban Ramadhan
-NIM: 2315061094
-Program Studi: Teknik Informatika
-Mata Kuliah: Praktikum Pemrograman Web
+# Dibuat Oleh: 
+Nama: Muhamad Hibban Ramadhan 
+NIM: 2315061094 
+Program Studi: Teknik Informatika 
+Mata Kuliah: Praktikum Pemrograman Web 
 Semester: 5
