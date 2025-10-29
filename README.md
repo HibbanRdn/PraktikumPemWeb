@@ -20,13 +20,13 @@ PraktikumPemWeb/
 
 # 🧠 Deskripsi Singkat: TA_Modul 1
 
-Judul Modul: Tugas Akhir Modul 1 — Pengenalan Struktur Web Dasar
+Judul Modul: HTML & CSS
 Tujuan:
-Memahami struktur dasar halaman web dengan menggunakan HTML, CSS, dan JavaScript.
+Memahami struktur dasar halaman web dengan menggunakan HTML dan CSS.
 Mahasiswa diharapkan mampu:
 - Membuat layout halaman menggunakan elemen HTML semantik.
+- Dapat memahami dan menggunakan tag dalam dokumen HTML.
 - Menggunakan CSS eksternal untuk memperindah tampilan.
-- Menambahkan interaktivitas sederhana dengan JavaScript.
 
 Teknologi yang Digunakan:
 - HTML5
