@@ -58,7 +58,7 @@ cd PraktikumPemWeb/TA_Modul\ 2
 Berikut adalah tampilan hasil akhir dari website portfolio yang dibuat pada modul ini:
 
 <p align="center">
-  <img src="TA_Modul-2/ScreenshotTampilan.png" alt="Tampilan Website Portfolio" width="600">
+  <img src="ScreenshotTampilan.png" alt="Tampilan Website Portfolio" width="600">
 </p>
 
 Atau pratinjau langsung di browser setelah menjalankan file index.html.
