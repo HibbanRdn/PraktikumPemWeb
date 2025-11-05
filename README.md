@@ -1,7 +1,15 @@
-# 🖥️ Praktikum Pemrograman Web
+<h1 align="center">🖥️ Praktikum Pemrograman Web</h1> 
 
-Repositori ini berisi kumpulan tugas, laporan, dan proyek praktikum mata kuliah **Pemrograman Web**.  
-Setiap folder mewakili modul atau tugas tertentu yang dikerjakan selama semester berjalan.
+<p align="center"> 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/> 
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/> 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"/> 
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Badge"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge"/> </p>
+
+---
+
+## 📘 Deskripsi Repository
+Repositori ini berisi kumpulan hasil praktikum mata kuliah Pemrograman Web yang mencakup pembuatan halaman web statis dan dinamis menggunakan **HTML**, **CSS**, **JavaScript**, **PHP**, dan **Git**. Setiap modul berisi tugas, laporan, dan proyek mini yang dikerjakan secara bertahap untuk memahami konsep fundamental pengembangan web front-end dan back-end.
 
 ---
 
@@ -32,26 +40,7 @@ PraktikumPemWeb/
 ```
 ---
 
-# 🧠 Deskripsi Singkat: TA_Modul 1
-
-Judul Modul: HTML & CSS
-Tujuan:
-Memahami struktur dasar halaman web dengan menggunakan HTML dan CSS.
-Mahasiswa diharapkan mampu:
-- Membuat layout halaman menggunakan elemen HTML semantik.
-- Dapat memahami dan menggunakan tag dalam dokumen HTML.
-- Menggunakan CSS eksternal untuk memperindah tampilan.
-
-Teknologi yang Digunakan:
-- HTML5
-- CSS
-  
-Output:
-Sebuah halaman web statis interaktif yang menampilkan konten sesuai tema modul.
-
----
-
-# ⚙️ Cara Menjalankan
+## ⚙️ Cara Menjalankan
 1. Clone repositori ini:
 ```
 git clone https://github.com/HibbanRdn/PraktikumPemWeb.git
@@ -64,7 +53,7 @@ cd PraktikumPemWeb/TA_Modul\ 1
 
 ---
 
-# Dibuat Oleh:
+## Dibuat Oleh:
 - Nama: Muhamad Hibban Ramadhan
 - NPM: 2315061094
 - Program Studi: Teknik Informatika
