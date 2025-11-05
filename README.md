@@ -5,6 +5,20 @@ Setiap folder mewakili modul atau tugas tertentu yang dikerjakan selama semester
 
 ---
 
+## 🧩 Daftar Modul Praktikum
+
+| Modul | Judul Praktikum | Deskripsi Singkat |
+|:------|:----------------|:------------------|
+| [TA_Modul-1](./TA_Modul-1) | *HTML dan CSS* | Mempelajari struktur dasar halaman web menggunakan HTML serta pengaturan tampilan dengan CSS. |
+| [TA_Modul-2](./TA_Modul-2) | *Git & Version Control* | Mengenal sistem version control Git untuk mengelola dan melacak perubahan kode pada proyek web. |
+| [TA_Modul-3](./TA_Modul-3) | *CSS Framework & Templating* | Menggunakan framework seperti Bootstrap untuk membuat tampilan web yang responsif dan konsisten. |
+| [TA_Modul-4](./TA_Modul-4) | *PHP & Manipulasi Form* | Membuat form dinamis dan memproses data input menggunakan bahasa pemrograman PHP. |
+| [TA_Modul-5](./TA_Modul-5) | *JavaScript Dasar* | Memahami konsep dasar JavaScript dan penerapannya untuk interaktivitas halaman web. |
+| [TA_Modul-6](./TA_Modul-6) | *AJAX dan Web Service* | Menerapkan AJAX untuk komunikasi asynchronous dengan server serta mengakses data dari web service. |
+> 📂 **Catatan:** Modul praktikum akan diperbarui secara bertahap sesuai dengan jadwal perkuliahan.
+
+---
+
 ## 📁 Struktur Folder
 
 ```bash
