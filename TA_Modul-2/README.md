@@ -62,7 +62,7 @@ Berikut adalah tampilan hasil akhir dari website portfolio yang dibuat pada modu
 <p align="center">
   <img src="ScreenshotTampilan.png" alt="Tampilan Website Portfolio" width="600"/>
 </p>
-Hasil: Masih sama seperti tampilan di [TA_Modul-1](./TA_Modul-1).
+Hasil: Masih sama seperti tampilan di TA_Modul-1.
 
 #### ⚠️ Setelah Merge Branch Style
 <p align="center">
