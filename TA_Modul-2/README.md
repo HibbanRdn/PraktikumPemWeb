@@ -23,25 +23,26 @@ PraktikumPemWeb/
 ```
 ---
 ## 🧠 Deskripsi Singkat: TA_Modul 2
-**Judul Modul**: Website Portfolio Pribadi
+**Judul Modul**: Git & Version Control
 **Tujuan**:
-Memahami cara membangun website portfolio sederhana menggunakan **HTML dan CSS**, serta mengimplementasikan struktur layout yang baik dengan gaya visual yang menarik dan responsif.
+Memahami konsep dasar sistem **version control** menggunakan Git, serta menguasai langkah-langkah dasar dalam mengelola proyek web melalui repositori lokal dan repositori daring (GitHub).
 ### Mahasiswa diharapkan mampu:
-- Menggunakan elemen HTML untuk membangun struktur halaman web.
-- Mengaplikasikan CSS eksternal dalam mengatur tampilan dan layout halaman.
-- Menerapkan konsep desain UI yang konsisten dan estetis.
-- Menggunakan Git untuk manajemen versi proyek web.
+- Menginisialisasi repository Git lokal menggunakan perintah **git init**.
+- Melakukan tracking dan commit perubahan dengan **git add** dan **git commit**.
+- Menghubungkan repository lokal ke GitHub menggunakan **git remote**.
+- Mengunggah proyek ke GitHub menggunakan **git push**.
+- Mengelola versi kode dengan **branching**, **merging**, dan **pull request**.
 ### Teknologi yang Digunakan:
 - HTML5
 - CSS3
 - Git & GitHub
 ### Output:
-Sebuah website portfolio pribadi dengan komponen utama:
-- Header berisi nama dan deskripsi.
-- Navigasi menampilkan identitas mahasiswa (NPM, kelas, dan kontak WhatsApp).
-- Konten utama berisi foto mahasiswa.
-- Footer menampilkan alamat tempat tinggal.
-- Tema warna lembut bernuansa biru dengan fitur **dark mode**.
+Sebuah repositori Git yang berisi:
+- Struktur folder proyek web terkelola.
+- Riwayat commit yang terdokumentasi dengan baik.
+- Branch tambahan untuk eksperimen styling atau fitur baru.
+- Proyek berhasil di-push ke GitHub publik.
+
 ---
 ##  ⚙️ Cara Menjalankan
 ### 1. Clone repositori ini:
@@ -57,9 +58,17 @@ cd PraktikumPemWeb/TA_Modul\ 2
 ## 📸 Preview Tampilan Website
 Berikut adalah tampilan hasil akhir dari website portfolio yang dibuat pada modul ini:
 
+#### ⚠️ Sebelum Merge Branch Style
 <p align="center">
-  <img src="ScreenshotTampilan.png" alt="Tampilan Website Portfolio" width="600">
+  <img src="ScreenshotTampilan.png" alt="Tampilan Website Portfolio" width="600"/>
 </p>
+Hasil: Masih sama seperti tampilan di [TA_Modul-1](./TA_Modul-1).
+
+#### ⚠️ Setelah Merge Branch Style
+<p align="center">
+  <img src="tampilanStyling.png" alt="Tampilan Website Portfolio" width="600">
+</p>
+Hasil: Penambahan warna pada style.
 
 Atau pratinjau langsung di browser setelah menjalankan file index.html.
 ---
