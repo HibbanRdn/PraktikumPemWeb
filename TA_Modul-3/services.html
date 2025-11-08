@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami | VisionAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white/95 backdrop-blur-sm shadow-md fixed top-0 w-full z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center gap-3 text-2xl font-bold text-navy-800 transition hover:opacity-80">
+                    <!-- Logo placeholder - ganti dengan <img src="assets/logo.png" alt="VisionAI" class="h-8"> -->
+                    <div class="logo-icon text-sm">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span>VisionAI</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-blue-800 flex items-center gap-2">
+                        <i class="fas fa-home text-sm"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-blue-800 flex items-center gap-2">
+                        <i class="fas fa-info-circle text-sm"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="services.html" class="nav-link active text-blue-800 font-semibold flex items-center gap-2">
+                        <i class="fas fa-cogs text-sm"></i>
+                        <span>Services</span>
+                    </a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-blue-800 flex items-center gap-2">
+                        <i class="fas fa-envelope text-sm"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-gray-700 hover:text-blue-800">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Reduced Height -->
+    <section class="gradient-bg text-white pt-24 pb-16 flex flex-col justify-center items-center text-center px-6">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold fade-in-up mb-4">Layanan VisionAI</h1>
+            <p class="text-base md:text-lg text-gray-200 leading-relaxed fade-in-up delay-1">
+                Kami menyediakan berbagai solusi berbasis kecerdasan buatan untuk meningkatkan efisiensi dan inovasi bisnis Anda.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 fade-in-up">Layanan Utama Kami</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-4 fade-in-up delay-1"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto fade-in-up delay-2">
+                    Solusi AI komprehensif yang dirancang khusus untuk kebutuhan bisnis modern
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-1">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">🤖</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">AI Chatbot & Assistant</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Meningkatkan layanan pelanggan Anda dengan chatbot cerdas yang memahami konteks dan berinteraksi secara natural.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">NLP</span>
+                        <span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">24/7 Support</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-2">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">📈</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Data Analytics & Insights</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Mengubah data mentah menjadi wawasan berharga untuk strategi bisnis melalui analisis berbasis AI.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full">Big Data</span>
+                        <span class="text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full">Reporting</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-3">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">🧠</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Machine Learning Integration</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Kami membantu perusahaan mengintegrasikan model pembelajaran mesin untuk proses produksi dan prediksi bisnis.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">ML Models</span>
+                        <span class="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">Automation</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-4">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">🔍</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Computer Vision System</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Solusi AI yang mengenali dan menganalisis gambar/video untuk keamanan, otomasi, dan inspeksi kualitas.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded-full">Image Recognition</span>
+                        <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded-full">QA</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-5">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">💡</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">AI Consulting</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Kami membantu merancang strategi implementasi AI yang sesuai dengan kebutuhan unik bisnis Anda.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">Strategy</span>
+                        <span class="text-xs bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">Expert Team</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="service-card bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl scale-in delay-6">
+                    <div class="icon-circle">
+                        <div class="service-icon text-4xl">☁️</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Cloud AI Services</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Menyediakan infrastruktur cloud berbasis AI yang aman, cepat, dan mudah diintegrasikan.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full">Scalable</span>
+                        <span class="text-xs bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full">Secure</span>
+                    </div>
+                    <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center gap-2 transition">
+                        <span>Konsultasi</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 fade-in-up">Proses Kerja Kami</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto fade-in-up delay-1"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="text-center fade-in-up delay-1">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-blue-600">1</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Konsultasi</h3>
+                    <p class="text-sm text-gray-600">Memahami kebutuhan dan tujuan bisnis Anda</p>
+                </div>
+                <div class="text-center fade-in-up delay-2">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-green-600">2</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Perencanaan</h3>
+                    <p class="text-sm text-gray-600">Merancang solusi AI yang optimal</p>
+                </div>
+                <div class="text-center fade-in-up delay-3">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-purple-600">3</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Implementasi</h3>
+                    <p class="text-sm text-gray-600">Deploy dan integrasi sistem AI</p>
+                </div>
+                <div class="text-center fade-in-up delay-4">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-orange-600">4</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Support</h3>
+                    <p class="text-sm text-gray-600">Maintenance dan optimasi berkelanjutan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 fade-in-up">Ingin Bisnis Anda Bertransformasi dengan AI?</h2>
+            <p class="text-lg text-gray-200 mb-8 fade-in-up delay-1">
+                Hubungi kami untuk konsultasi gratis dan mulai langkah menuju masa depan digital Anda.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in-up delay-2">
+                <a href="contact.html" class="cta-button bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 inline-flex items-center gap-2 justify-center">
+                    <i class="fas fa-phone"></i>
+                    <span>Hubungi Kami</span>
+                </a>
+                <a href="about.html" class="cta-button bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 inline-flex items-center gap-2 justify-center">
+                    <i class="fas fa-users"></i>
+                    <span>Tentang Kami</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a1f44] text-gray-300 py-10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center">
+                <div class="flex items-center justify-center gap-3 mb-4">
+                    <div class="logo-icon text-sm">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="text-2xl font-bold text-white">VisionAI</span>
+                </div>
+                <p class="text-gray-400 mb-6">&copy; 2025 VisionAI. All rights reserved.</p>
+                <div class="flex justify-center gap-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="services.js"></script>
+
+</body>
+</html>
