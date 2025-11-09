@@ -6,7 +6,7 @@
     <title>Layanan Kami | VisionAI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="../css/services.css">
 </head>
 
 <body class="bg-white text-gray-800">
@@ -15,15 +15,12 @@
     <nav class="bg-white/95 backdrop-blur-sm shadow-md fixed top-0 w-full z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <a href="index.html" class="flex items-center gap-3 text-2xl font-bold text-navy-800 transition hover:opacity-80">
-                    <!-- Logo placeholder - ganti dengan <img src="assets/logo.png" alt="VisionAI" class="h-8"> -->
-                    <div class="logo-icon text-sm">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <span>VisionAI</span>
+                <a href="../index.html" class="flex items-center gap-3 text-2xl font-bold text-navy-800 transition hover:opacity-80">
+                    <img src="../assets/logo/logofixed.svg"" alt="VisionAI" class="h-8 w-auto">
+                    <span class="text-2xl font-bold text-black">VisionAI</span>
                 </a>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="index.html" class="nav-link text-gray-700 hover:text-blue-800 flex items-center gap-2">
+                    <a href="../index.html" class="nav-link text-gray-700 hover:text-blue-800 flex items-center gap-2">
                         <i class="fas fa-home text-sm"></i>
                         <span>Home</span>
                     </a>
@@ -40,20 +37,28 @@
                         <span>Contact</span>
                     </a>
                 </div>
-                <!-- Mobile Menu Button -->
-                <button class="md:hidden text-gray-700 hover:text-blue-800">
-                    <i class="fas fa-bars text-xl"></i>
+                <!-- Tombol nav mobile -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-blue-800">
+                <i class="fas fa-bars text-xl"></i>
                 </button>
             </div>
         </div>
-    </nav>
+
+        <!-- Menu Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <a href="../index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100"><i class="fas fa-home mr-2"></i>Home</a>
+            <a href="about.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100"><i class="fas fa-info-circle mr-2"></i>About</a>
+            <a href="services.html" class="block px-4 py-2 text-blue-800 font-semibold"><i class="fas fa-cogs mr-2"></i>Services</a>
+            <a href="contact.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100"><i class="fas fa-envelope mr-2"></i>Contact</a>
+        </div>
+   </nav>
 
     <!-- Hero Section - Reduced Height -->
     <section class="gradient-bg text-white pt-24 pb-16 flex flex-col justify-center items-center text-center px-6">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-4xl md:text-5xl font-extrabold fade-in-up mb-4">Layanan VisionAI</h1>
             <p class="text-base md:text-lg text-gray-200 leading-relaxed fade-in-up delay-1">
-                Kami menyediakan berbagai solusi berbasis kecerdasan buatan untuk meningkatkan efisiensi dan inovasi bisnis Anda.
+                Kami menyediakan berbagai solusi berbasis AI untuk meningkatkan efisiensi & inovasi bisnis Anda.
             </p>
         </div>
     </section>
@@ -253,20 +258,18 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center">
                 <div class="flex items-center justify-center gap-3 mb-4">
-                    <div class="logo-icon text-sm">
-                        <i class="fas fa-brain"></i>
-                    </div>
+                    <img src="../assets/logo/logofixed.svg"" alt="VisionAI" class="h-8 w-auto">
                     <span class="text-2xl font-bold text-white">VisionAI</span>
                 </div>
                 <p class="text-gray-400 mb-6">&copy; 2025 VisionAI. All rights reserved.</p>
                 <div class="flex justify-center gap-6">
-                    <a href="#" class="text-gray-400 hover:text-white transition">
+                    <a href="https://www.linkedin.com/school/universitaslampung/" target="_blank" class="text-gray-400 hover:text-white transition">
                         <i class="fab fa-linkedin text-xl"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition">
+                    <a href="https://x.com/unila_base?s=20" target="_blank" class="text-gray-400 hover:text-white transition">
                         <i class="fab fa-twitter text-xl"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition">
+                    <a href="https://www.instagram.com/official_unila?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-gray-400 hover:text-white transition">
                         <i class="fab fa-instagram text-xl"></i>
                     </a>
                 </div>
@@ -274,7 +277,7 @@
         </div>
     </footer>
 
-    <script src="services.js"></script>
+    <script src="../js/services.js"></script>
 
 </body>
 </html>
