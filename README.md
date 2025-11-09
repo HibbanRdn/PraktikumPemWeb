@@ -37,7 +37,25 @@ PraktikumPemWeb/
 │   ├── index.html
 │   ├── style.css
 │   └── Screenshot Tampilan
-├── (folder modul lainnya)
+├── TA_Modul 2/
+│   ├── index.html
+│   ├── style.css
+│   ├── Screenshot Tampilan
+│   └── README.md
+├── TA_Modul 3/
+│   ├── index.html
+│   ├── pages/
+│   │   ├── about.html
+│   │   ├── layanan.html
+│   │   └── contact.html
+│   ├── assets/
+│   │   ├── logo/
+│   │   └── images/
+│   ├── css/ 
+│   │   └── index.css
+│   ├── js/ 
+│   │   └── index.js
+│   └── README.md
 └── README.md
 ```
 ---
