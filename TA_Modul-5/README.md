@@ -85,7 +85,7 @@ cd PraktikumPemWeb/TA_Modul\ 5
 
 ### 3️⃣ Jalankan di browser:
 
-* Buka file `index.html` langsung, atau
+* Buka file `kalkulator.html` langsung, atau
 * Jalankan dengan ekstensi **Live Server** pada Visual Studio Code.
 
 ---
