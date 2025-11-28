@@ -1,12 +1,4 @@
 <?php
-/**
- * Weather API Handler & Session Storage
- * Fitur:
- * 1. Proxy ke WeatherAPI.com
- * 2. Load API Key dari .env (Tanpa Composer)
- * 3. Session Storage untuk Favorit
- * 4. 5-Day Forecast
- */
 
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
@@ -20,12 +12,10 @@ function loadEnv($path) {
     
     $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     foreach ($lines as $line) {
-        // Lewati komentar
         if (strpos(trim($line), '#') === 0) {
             continue;
         }
         
-        // Parse format KEY=VALUE
         if (strpos($line, '=') !== false) {
             list($name, $value) = explode('=', $line, 2);
             $name = trim($name);
