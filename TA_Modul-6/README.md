@@ -34,9 +34,7 @@ TA_Modul 6/
 
   * Menerapkan konsep **AJAX / Fetch API** untuk komunikasi data tanpa reload halaman.
   * Membuat **Backend Proxy** sederhana menggunakan PHP untuk menyembunyikan kredensial (API Key).
-  * Mengelola **Environment Variables** (`.env`) untuk keamanan konfigurasi.
   * Memanipulasi DOM secara dinamis berdasarkan data JSON yang diterima dari server.
-  * Mengimplementasikan desain UI modern (**Glassmorphism**) dan responsif.
 
 -----
 
@@ -72,9 +70,9 @@ Aplikasi **Weather Dashboard - Enterprise Edition** dengan fitur utama berikut:
 
 -----
 
-## 🌍 Demo / Live Preview
+## 🌍 Deployment di Vercel
 
-Aplikasi ini telah di-deploy dan dapat diakses secara langsung melalui Vercel:
+Aplikasi ini telah di-deploy dan dapat diakses secara langsung melalui:
 
 👉 **[Buka Weather Dashboard](https://weather-dash-sand.vercel.app/)**
 
